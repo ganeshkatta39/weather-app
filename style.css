@@ -1,0 +1,130 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fc4a1a),
+    to(#f7b733)
+  );
+  background: linear-gradient(to right, #403a3e, #be5869);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 1rem;
+  margin: 4rem auto 0 auto;
+}
+
+.container {
+  width: 60vw;
+  height: 50vh;
+  border: 5px solid #36ff5c;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.notification {
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background: #000;
+  color: #fff;
+}
+
+.weather-container {
+  background: #fff;
+}
+
+.weather-icon {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.temperature {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.weather-info {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.location {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.name {
+  text-align: center;
+  padding-top: 2rem;
+  color: #fff;
+}
+
+.social--icons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.social--icons i {
+  color: #fff;
+  padding: 5px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.social--icons i:hover {
+  color: #36ff5c;
+}
+
+footer {
+  color: #fff;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 40vw;
+  }
+
+  .temperature {
+    font-size: 2.5rem;
+  }
+  .weather-info {
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 3rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
